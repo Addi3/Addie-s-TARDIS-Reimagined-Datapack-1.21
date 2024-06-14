@@ -1,0 +1,1 @@
+give @p trial_key[custom_name='[{"bold":true,"color":"aqua","obfuscated":true,"text":"a"},{"obfuscated":false,"text":"TARDIS Key"},{"obfuscated":true,"text":"a"}]',item_name='{"text":"A key to the most advanced space, time machine to ever exist!"}',custom_model_data=1] 1
