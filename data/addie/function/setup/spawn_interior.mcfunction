@@ -6,3 +6,5 @@ execute in addie:tardis run setblock 0 101 0 redstone_block
 
 execute in addie:tardis run setblock 0 100 0 structure_block{name:"addie:console_room_broken",mode:"LOAD"}
 execute in addie:tardis run setblock 0 101 0 redstone_block
+
+effect give @e[tag=seat] minecraft:invisibility infinite 1 true
