@@ -27,3 +27,5 @@
 -fix emmisive textures (wait for idium to update to 1.21)
 
 -add disco light mode
+
+-add upgrades; end upgrade, security upgrade, flight speed upgrade ....
