@@ -1,4 +1,5 @@
 gamerule commandBlockOutput false
+gamerule commandModificationBlockLimit 999999
 
 #initial interior spawn
 
@@ -18,3 +19,4 @@ execute in addie:tardis run place template addie:corridor1 54 100 0
 execute in addie:tardis run place template addie:libary 54 100 56
 
 effect give @e[tag=seat] minecraft:invisibility infinite 1 true
+
