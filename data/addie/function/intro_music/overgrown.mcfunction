@@ -1,0 +1,1 @@
+scoreboard players reset addie_overgrown_play addie_intro_music

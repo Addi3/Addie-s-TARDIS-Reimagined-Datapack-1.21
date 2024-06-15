@@ -1,0 +1,1 @@
+execute at @e[tag=door] run summon armor_stand ~ ~ ~1 {Invisible:1b,Tags:["playnewlook"]}

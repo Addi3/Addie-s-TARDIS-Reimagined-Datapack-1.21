@@ -1,0 +1,2 @@
+execute in addie:tardis at @e[tag=playnewlook] if entity @a[tag=inside,distance=..0.1] run playsound minecraft:new_look ambient @p ~ ~ ~ 1 1 1
+execute in addie:tardis at @e[tag=playnewlook] if entity @a[tag=inside,distance=..0.1] run kill @e[tag=playnewlook]

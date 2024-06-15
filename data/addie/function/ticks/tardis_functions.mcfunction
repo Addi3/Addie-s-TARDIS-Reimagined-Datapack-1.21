@@ -9,3 +9,6 @@ execute if entity @e[tag=tardis] at @e[tag=tardis] run tp @e[tag=extdoorint] ~ ~
 #rotor idle
 execute as @e[tag=rotorbottom] at @s run tp @s ~ ~ ~ ~2 ~
 execute as @e[tag=rotortop] at @s run tp @s ~ ~ ~ ~-2 ~
+
+#intro music
+function addie:intro_music/new_look
