@@ -1,7 +1,7 @@
 scoreboard players remove addie_tardis_doors_open addie_tardis_door 1
 
 execute if score addie_tardis_doors_open addie_tardis_door matches 0 at @e[tag=door] run playsound minecraft:police_box_close ambient @a[distance=..5] ~ ~ ~ 2 1 1
-execute if score addie_tardis_doors_open addie_tardis_door matches 1 at @e[tag=door] run playsound minecraft:police_box_close ambient @a[distance=..5] ~ ~ ~ 2 1 1
+execute if score addie_tardis_doors_open addie_tardis_door matches 1 at @e[tag=door] run playsound minecraft:police_box_closebell ambient @a[distance=..5] ~ ~ ~ 2 1 1
 
 #exterior item
 execute if score addie_tardis_doors_open addie_tardis_door matches 0 run item replace entity @e[tag=tardis] armor.head with minecraft:cyan_dye[minecraft:custom_model_data=1]
