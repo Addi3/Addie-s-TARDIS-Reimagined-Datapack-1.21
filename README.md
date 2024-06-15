@@ -34,6 +34,8 @@
 
 -add some galifryan to the console
 
+-add pilot tag (so only pilots can fly the tardis) `IMPORTANT`
+
 ------------------
 # CREDITS
 ----
