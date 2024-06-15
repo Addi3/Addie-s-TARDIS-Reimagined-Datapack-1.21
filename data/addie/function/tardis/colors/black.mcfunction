@@ -15,6 +15,5 @@ fill 0 100 0 46 145 45 minecraft:tinted_glass replace minecraft:purple_stained_g
 fill 0 100 0 46 145 45 minecraft:tinted_glass replace minecraft:magenta_stained_glass
 fill 0 100 0 46 145 45 minecraft:tinted_glass replace minecraft:pink_stained_glass
 fill 0 100 0 46 145 45 minecraft:tinted_glass replace minecraft:tinted_glass
-advancement revoke @p only addie:tardis/black_int
 execute at @e[tag=console] run playsound minecraft:tardis_rebuild ambient @a[tag=inside] ~ ~ ~ 100 1 1
 

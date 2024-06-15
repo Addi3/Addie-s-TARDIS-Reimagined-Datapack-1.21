@@ -10,3 +10,6 @@ scoreboard players add addie_tardis_power addie_tardis_functions 1
 #ambiance
 scoreboard objectives add addie_interior_ambience dummy
 scoreboard players add addie_interior_ambiencesfx addie_interior_ambience 0
+
+#pilots
+scoreboard objectives add addie_tardis_pilots dummy

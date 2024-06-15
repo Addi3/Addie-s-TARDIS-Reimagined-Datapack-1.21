@@ -17,6 +17,6 @@
       }
     },
     "rewards": {
-      "function": "addie:tardis/colors/blue"
+      "function": "addie:tardis/colors/chech_pilots/check_pilot_blue"
     }
   }

@@ -17,6 +17,6 @@
       }
     },
     "rewards": {
-      "function": "addie:tardis/functions/power/power_on"
+      "function": "addie:tardis/functions/power/power_check_pilot"
     }
   }

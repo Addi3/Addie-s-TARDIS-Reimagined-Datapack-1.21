@@ -1,0 +1,1 @@
+execute as @s run scoreboard players add @s addie_tardis_pilots 1
