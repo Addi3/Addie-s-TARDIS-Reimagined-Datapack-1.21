@@ -1,4 +1,3 @@
-execute in addie:tardis run setblock 0 100 0 structure_block{name:"addie:console_room_purple",mode:"LOAD"}
-execute in addie:tardis run setblock 0 101 0 redstone_block
+execute in addie:tardis run place template addie:console_room_purple 0 100 0
 advancement revoke @p only addie:tardis/purple_int
 execute at @e[tag=console] run playsound minecraft:tardis_rebuild ambient @a[tag=inside] ~ ~ ~ 100 1 1
