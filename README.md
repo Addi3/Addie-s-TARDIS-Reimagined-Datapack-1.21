@@ -4,7 +4,7 @@
 [DISCORD](https://discord.com/invite/cRPjGDy37p) | [DEV LOGS](https://youtube.com/playlist?list=PLnrSfYm4DiXkvuy0egSI8jkkjkd_lfECR&si=jPogT5T67gG-tEiM)
 
 ## TO DO list
--add back everything the old tardis had
+-add back everything the old tardis had  `Currently Working On`
 
 -use worldboarder texture for shields
 
@@ -16,21 +16,23 @@
 
 -make ARS tree room
 
--make the tardis feel ALIVE!
+-make the tardis feel ALIVE!  `Currently Working On`
 
 -way to get tardis: tardis will spawn dead/abandoned (use overgrown interior) player will use item/s to reboot tardis >"dimensional stabiliser"
 
--make corridors
+-make corridors  `Currently Working On`
 
 -add sonic screwdriver
 
--fix emmisive textures (wait for idium to update to 1.21)
+-fix emmisive textures (wait for idium to update to 1.21)  `Currently Working On`
 
--add disco light mode
+-add disco light mode / other cool light modes
 
 -add upgrades; end upgrade, security upgrade, flight speed upgrade ....
 
--time window room 
+-time window room
+
+-add some galifryan to the console
 
 ------------------
 # CREDITS
