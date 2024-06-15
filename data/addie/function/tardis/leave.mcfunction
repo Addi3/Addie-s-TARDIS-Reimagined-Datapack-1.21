@@ -1,3 +1,3 @@
-execute at @e[tag=open] run tp @p ^ ^.5 ^1 ~ ~
-stopsound @a[tag=inside] ambient
-tag @p remove inside
+execute at @e[tag=open] run tp @p[tag=exiting,sort=nearest] ^ ^.5 ^1 ~ ~
+stopsound @a[tag=exiting,sort=nearest] ambient
+tag @p[tag=exiting,sort=nearest] remove inside
