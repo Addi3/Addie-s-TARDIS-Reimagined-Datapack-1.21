@@ -3,3 +3,4 @@ execute at @e[tag=tardis] run summon interaction ~ ~ ~ {NoGravity:1b,width:1.5f,
 execute at @e[tag=tardis] run summon polar_bear ~ ~.1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["hitbox"]}
 effect give @e[tag=hitbox] minecraft:invisibility infinite 1 true
 function addie:scoreboards
+function addie:setup/spawn_interior
