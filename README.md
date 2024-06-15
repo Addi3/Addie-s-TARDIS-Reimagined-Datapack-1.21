@@ -43,5 +43,6 @@
 ----
 ### Models / Textures / Main Coder : [Addi3](https://github.com/Addi3)
 ### Key model / texture : 
+### Contributers : [MakeTendo](https://github.com/MaketendoDev)
 
 
