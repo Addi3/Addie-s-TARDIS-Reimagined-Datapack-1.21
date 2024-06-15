@@ -38,6 +38,8 @@
 
 -add quests > recived by phone calls on the door phone (NOT A PROMIS THAT THEY CAN HAPPEN)
 
+-add music that plays when you first walk in (both for ruined tardis and repaired tardis (can be disabled))
+
 ------------------
 # CREDITS
 ----
