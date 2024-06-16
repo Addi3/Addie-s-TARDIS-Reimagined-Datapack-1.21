@@ -3,9 +3,6 @@
 
 [DISCORD](https://discord.com/invite/cRPjGDy37p) | [DEV LOGS](https://youtube.com/playlist?list=PLnrSfYm4DiXkvuy0egSI8jkkjkd_lfECR&si=jPogT5T67gG-tEiM)
 -----------
-# FIX!
-* interior not forceloading ??? (i blame mojang)
------------
 ## TO DO list
 -add back everything the old tardis had  `Currently Working On`
 
@@ -17,7 +14,7 @@
 
 -credit andromeda for key model and texture
 
--make ARS tree room
+-add rooms; time window room (will show area around the tardis), ARS tree room
 
 -make the tardis feel ALIVE!  `Currently Working On`
 
@@ -32,8 +29,6 @@
 -add disco light mode / other cool light modes
 
 -add upgrades; end upgrade, security upgrade, flight speed upgrade, show room names upgrade ....
-
--time window room
 
 -add some galifryan to the console
 
