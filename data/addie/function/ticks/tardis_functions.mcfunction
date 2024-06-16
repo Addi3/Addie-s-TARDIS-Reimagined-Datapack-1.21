@@ -12,6 +12,7 @@ execute as @e[tag=rotortop] at @s run tp @s ~ ~ ~ ~-2 ~
 
 #intro music
 function addie:intro_music/new_look
+function addie:intro_music/overgrown
 
 #steamroom
 execute at @e[tag=steamroom] run particle minecraft:cloud ~ ~ ~ .7 3 .7 0 2
