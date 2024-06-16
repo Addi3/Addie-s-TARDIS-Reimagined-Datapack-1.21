@@ -36,7 +36,7 @@
 
 -add functionality to EOH (save each state as a strucute, use /place template at an armorstand to open/close)
 
--add advancements; when entering a tardis for the first time, when getting a key, when getting key, when first taking off, when opening the EOH `Currently Working On`
+-add advancements; when entering a tardis for the first time, when getting a key, when first taking off, when opening the EOH `Currently Working On`
 
 ------
 # ADDED
