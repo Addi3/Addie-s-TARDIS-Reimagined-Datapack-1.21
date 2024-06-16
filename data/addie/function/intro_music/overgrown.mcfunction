@@ -1,1 +1,2 @@
-scoreboard players reset addie_overgrown_play addie_intro_music
+execute in addie:tardis at @e[tag=playovergrown] if entity @a[tag=inside,distance=..0.1] run playsound minecraft:overgrown ambient @p ~ ~ ~ 1 1 1
+execute in addie:tardis at @e[tag=playovergrown] if entity @a[tag=inside,distance=..0.1] run kill @e[tag=playovergrown]
