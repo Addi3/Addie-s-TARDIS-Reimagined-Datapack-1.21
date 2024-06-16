@@ -31,17 +31,21 @@
 
 -add disco light mode / other cool light modes
 
--add upgrades; end upgrade, security upgrade, flight speed upgrade ....
+-add upgrades; end upgrade, security upgrade, flight speed upgrade, show room names upgrade ....
 
 -time window room
 
 -add some galifryan to the console
 
--add pilot tag (so only pilots can fly the tardis) `IMPORTANT`
-
 -add quests > recived by phone calls on the door phone (NOT A PROMIS THAT THEY CAN HAPPEN)
 
--add music that plays when you first walk in (both for ruined tardis and repaired tardis (can be disabled))
+------
+# ADDED
+* POWER LEVER
+* COLOR CHANGING LIGHTS (ON CONSOLE GALIFRYAN SAYS WHAT COLOR IT IS)
+* CORRIDORS
+* ROOMS; LIBARY, DINNING ROOM, KITCHEN, EYE OF HARMONEY
+  
 
 ------------------
 # CREDITS
