@@ -3,9 +3,6 @@
 
 [DISCORD](https://discord.com/invite/cRPjGDy37p) | [DEV LOGS](https://youtube.com/playlist?list=PLnrSfYm4DiXkvuy0egSI8jkkjkd_lfECR&si=jPogT5T67gG-tEiM)
 -----------
-# FIX!
-* interior not forceloading ??? (i blame mojang)
------------
 ## TO DO list
 -add back everything the old tardis had  `Currently Working On`
 
