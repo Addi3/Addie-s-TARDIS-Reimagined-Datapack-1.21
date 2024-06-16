@@ -39,6 +39,8 @@
 
 -add quests > recived by phone calls on the door phone (NOT A PROMIS THAT THEY CAN HAPPEN)
 
+-add functionality to EOH (save each state as a strucute, use /place template at an armorstand to open/close)
+
 ------
 # ADDED
 * POWER LEVER
