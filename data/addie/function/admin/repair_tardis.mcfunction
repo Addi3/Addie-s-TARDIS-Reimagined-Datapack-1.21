@@ -9,7 +9,7 @@ execute in addie:tardis run forceload add -6 56 37 101
 
 #fixed interior
 execute in addie:tardis run place template addie:console_room_default 0 100 0
-
+execute at @e[tag=door] run summon armor_stand ~ ~ ~1 {Invisible:1b,NoGravity:1b,Tags:["playnewlook"]}
 #corrdor1
 execute in addie:tardis run place template addie:corridor1 54 100 0
 
