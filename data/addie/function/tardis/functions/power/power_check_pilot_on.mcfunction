@@ -1,0 +1,2 @@
+execute if score @s addie_tardis_pilots matches 1 if score addie_tardis_power addie_tardis_functions matches 0 run function addie:tardis/functions/power/power_on
+advancement revoke @p only addie:tardis/power_on_int
