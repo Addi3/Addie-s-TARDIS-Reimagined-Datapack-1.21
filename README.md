@@ -1,9 +1,11 @@
 # STILL IN EARLY DEVELOPMENT!!
-![](https://dub01pap001files.storage.live.com/y4mdNeQDMjk0S0K73eDLShcdJS2JyrTjh_Mfb20Gd7xpu8nzj8sskBC9gIyhXK9EDKV_EdLCf4b6-yg5OK1NpvhShg7xvdzkZ0GFw9nWeH-sys4PRi7g9r7aEGpnx0RLv5QDcmw0jmvRXp2t5jg5XZIgeCVaO7Ew0WvbDNkx0p2RopQJAGa0u7lsDeSCfLTvjb1UKQQ9Ap_t3f4jI2SPihMJ9unpb_aiuI0zp7P9QAj5_g?encodeFailures=1&width=1018&height=437)
+![logo](https://github.com/Addi3/Addie-s-TARDIS-Reimagined-Datapack-1.21/assets/122154427/b387c074-1f15-4dc8-ad20-4cdc64582132)
 
-[DISCORD](https://discord.com/invite/cRPjGDy37p) | [DEV LOGS](https://youtube.com/playlist?list=PLnrSfYm4DiXkvuy0egSI8jkkjkd_lfECR&si=jPogT5T67gG-tEiM)
+
+
+[DISCORD](https://discord.com/invite/cRPjGDy37p) | [DEV LOGS](https://youtube.com/playlist?list=PLnrSfYm4DiXkvuy0egSI8jkkjkd_lfECR&si=jPogT5T67gG-tEiM) | [WIKI](https://github.com/Addi3/Addie-s-TARDIS-Reimagined-Datapack-1.21/wiki)
 -----------
-## TO DO list
+# TO DO list
 -add back everything the old tardis had  `Currently Working On`
 
 -use worldboarder texture for shields
@@ -50,7 +52,6 @@
 
 ------------------
 # CREDITS
-----
 ### Models / Textures / Main Coder : [Addi3](https://github.com/Addi3)
 ### Original key model / texture : andr0_meda 
 ### Contributers : [MakeTendo](https://github.com/MaketendoDev)
