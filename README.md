@@ -50,7 +50,7 @@
 # CREDITS
 ----
 ### Models / Textures / Main Coder : [Addi3](https://github.com/Addi3)
-### Key model / texture : 
+### Original key model / texture : andr0_meda 
 ### Contributers : [MakeTendo](https://github.com/MaketendoDev)
 
 
