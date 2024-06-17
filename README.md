@@ -24,7 +24,7 @@
 
 -add sonic screwdriver
 
--fix emmisive textures (wait for idium to update to 1.21)  `Currently Working On`
+-fix emmisive textures (wait for indium to update to 1.21)  `Currently Working On`
 
 -add disco light mode / other cool light modes
 
@@ -37,6 +37,8 @@
 -add functionality to EOH (save each state as a strucute, use /place template at an armorstand to open/close)
 
 -add advancements; when entering a tardis for the first time, when getting a key, when first taking off, when opening the EOH `Currently Working On`
+
+-update console textures when indium updates to 1.21
 
 ------
 # ADDED
