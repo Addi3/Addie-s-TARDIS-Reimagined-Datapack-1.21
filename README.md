@@ -14,8 +14,6 @@
 
 -make time vortex texture (animated)
 
--credit andromeda for key model and texture
-
 -add rooms; time window room (will show area around the tardis), ARS tree room
 
 -make the tardis feel ALIVE!  `Currently Working On`
@@ -32,15 +30,15 @@
 
 -add upgrades; end upgrade, security upgrade, flight speed upgrade, show room names upgrade ....
 
--add some galifryan to the console
+-add some galifryan to the console  `Currently Working On`
 
--add quests > recived by phone calls on the door phone (NOT A PROMIS THAT THEY CAN HAPPEN)
+-add quests > recived by phone calls on the door phone (NOT A PROMIS THAT IT CAN HAPPEN)
 
 -add functionality to EOH (save each state as a strucute, use /place template at an armorstand to open/close)
 
--add advancements; when entering a tardis for the first time, when getting a key, when first taking off, when opening the EOH `Currently Working On`
+-add advancements; when entering a tardis for the first time, when getting a key, when first taking off, when opening the EOH (NOT A PROMIS THAT IT CAN HAPPEN)
 
--update console textures when indium updates to 1.21
+-update console textures when indium updates to 1.21  `Currently Working On`
 
 ------
 # ADDED
