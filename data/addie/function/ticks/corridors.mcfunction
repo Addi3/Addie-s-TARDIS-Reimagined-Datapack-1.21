@@ -22,8 +22,8 @@ execute in addie:tardis if entity @a[x=59,y=103,z=21,dy=1] run tp @a[x=59,y=103,
 execute in addie:tardis if entity @a[x=57,y=103,z=-8.5,dy=1] run tp @a[x=57,y=103,z=-8.5,dy=1] 60 103 21 -90 ~
 
 #EOH
-execute in addie:tardis if entity @a[x=63,y=103,z=-11,dy=1] run tp @a[x=63,y=103,z=-12,dy=1] 18 124 98 180 ~
-execute in addie:tardis if entity @a[x=18,y=124,z=100,dy=1] run tp @a[x=18,y=124,z=100,dy=1] 63 103 -10 0 ~
+execute in addie:tardis if entity @a[x=63,y=103,z=-11,dy=1] run tp @a[x=63,y=103,z=-12,dy=1] 39 124 60 90 ~
+execute in addie:tardis if entity @a[x=40,y=124,z=60,dy=1] run tp @a[x=40,y=124,z=60,dy=1] 63 103 -10 0 ~
 
 #steamroom
 execute in addie:tardis if entity @a[x=126,y=122,z=36,dy=1] run tp @a[x=126,y=122,z=36,dy=1] 83 103 15 90 ~
