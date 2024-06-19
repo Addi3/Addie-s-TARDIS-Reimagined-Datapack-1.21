@@ -1,0 +1,1 @@
+scoreboard players add @p addie_eoh_timer 1

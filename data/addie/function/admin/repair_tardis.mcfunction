@@ -1,3 +1,4 @@
+kill @e[type=minecraft:glow_item_frame]
 execute in addie:tardis run place template addie:console_room_default 0 100 0
 kill @e[tag=playovergrown]
 
@@ -5,8 +6,8 @@ execute in addie:tardis run forceload add 54 -50 99 -5
 execute in addie:tardis run forceload add 54 0 99 45
 execute in addie:tardis run forceload add 111 0 152 42
 execute in addie:tardis run forceload add 54 56 99 101
-execute in addie:tardis run forceload add -6 56 37 101
-execute in addie:tardis run forceload add -6 56 -54 104
+execute in addie:tardis run forceload add -54 56 41 103
+execute in addie:tardis run forceload add 41 104 -54 149
 
 #fixed interior
 execute in addie:tardis run place template addie:console_room_default 0 100 0
@@ -37,7 +38,7 @@ execute in addie:tardis run forceload remove 54 -50 99 -5
 execute in addie:tardis run forceload remove 54 0 99 45 
 execute in addie:tardis run forceload remove 111 0 152 42
 execute in addie:tardis run forceload remove 54 56 99 101
-execute in addie:tardis run forceload remove -6 56 37 101
-execute in addie:tardis run forceload remove -6 56 -54 104
+execute in addie:tardis run forceload remove -54 56 41 103
+execute in addie:tardis run forceload remove 41 104 -54 149
 
 say done
