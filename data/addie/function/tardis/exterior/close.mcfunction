@@ -16,3 +16,8 @@ execute if score addie_tardis_doors_open addie_tardis_door matches 2 run item re
 #tag
 execute if score addie_tardis_doors_open addie_tardis_door matches 0 run tag @e[tag=tardis] remove open
 execute if score addie_tardis_doors_open addie_tardis_door matches 0 run tag @e[tag=door] remove dooropen
+
+stopsound @a ambient minecraft:ship_ambience1
+stopsound @a ambient minecraft:ship_ambience2
+stopsound @a ambient minecraft:ship_ambience3
+stopsound @a ambient minecraft:ship_ambience4

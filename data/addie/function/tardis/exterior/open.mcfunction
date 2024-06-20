@@ -16,3 +16,6 @@ execute if score addie_tardis_doors_open addie_tardis_door matches 2 run item re
 #tag
 tag @e[tag=tardis] add open
 tag @e[tag=door] add dooropen
+
+#ext console ambiance
+execute if score addie_tardis_doors_open addie_tardis_door matches 1 at @e[tag=open,distance=..4] run playsound minecraft:ship_ambience4 ambient @p ~ ~ ~ .8 1 1
