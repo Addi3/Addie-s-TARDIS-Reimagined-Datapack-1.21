@@ -8,7 +8,6 @@
 ------------------
 # CREDITS
 ### Models / Textures / Main Coder : [Addi3](https://github.com/Addi3)
-### Original key model / texture : andr0_meda 
 ### Contributers : [MakeTendo](https://github.com/MaketendoDev)
 
 
