@@ -20,3 +20,4 @@ execute at @e[tag=steamroom] run particle minecraft:cloud ~ ~ ~ .7 3 .7 0 2
 #eoh room
 execute if score @p addie_eoh_timer > addie_min_time addie_eoh_timer run scoreboard players add @p addie_eoh_timer 1
 execute if score @p addie_eoh_timer > addie_max_time addie_eoh_timer run damage @p 5 minecraft:in_fire
+execute at @e[tag=eoh1] run particle minecraft:soul_fire_flame ~ ~ ~ 5 5 5 .2 10
