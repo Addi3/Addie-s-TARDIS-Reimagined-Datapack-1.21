@@ -1,6 +1,7 @@
 #power
 execute if score addie_tardis_power addie_tardis_functions matches 1 in addie:tardis run setblock 15 115 1 minecraft:redstone_block
 execute if score addie_tardis_power addie_tardis_functions matches 0 in addie:tardis run setblock 15 115 1 minecraft:air
+execute if score addie_tardis_current addie_tardis_fuel = addie_tardis_min addie_tardis_fuel run function addie:tardis/functions/power/power_off
 
 #exterior entities
 execute if entity @e[tag=tardis] at @e[tag=tardis] run tp @e[tag=hitbox] ~ ~ ~
@@ -21,3 +22,13 @@ execute at @e[tag=steamroom] run particle minecraft:cloud ~ ~ ~ .7 3 .7 0 2
 execute if score @p addie_eoh_timer > addie_min_time addie_eoh_timer run scoreboard players add @p addie_eoh_timer 1
 execute if score @p addie_eoh_timer > addie_max_time addie_eoh_timer run damage @p 5 minecraft:in_fire
 execute at @e[tag=eoh1] run particle minecraft:soul_fire_flame ~ ~ ~ 5 5 5 .2 10
+
+#tardis pos
+execute as @e[tag=tardis] store result score addie_tardis_x addie_tardis_pos run data get entity @e[tag=tardis,limit=1] Pos[0]
+execute as @e[tag=tardis] store result score addie_tardis_y addie_tardis_pos run data get entity @e[tag=tardis,limit=1] Pos[1]
+execute as @e[tag=tardis] store result score addie_tardis_z addie_tardis_pos run data get entity @e[tag=tardis,limit=1] Pos[2]
+
+#fuel
+data merge entity @e[tag=sayfuel,limit=1] {text:'[{"score":{"name":"addie_tardis_current","objective":"addie_tardis_fuel"},"color":"aqua"}]'}
+execute if score addie_tardis_current addie_tardis_fuel > addie_tardis_max addie_tardis_fuel run scoreboard players set addie_tardis_current addie_tardis_fuel 10000
+execute if score addie_tardis_current addie_tardis_fuel < addie_tardis_min addie_tardis_fuel run scoreboard players set addie_tardis_current addie_tardis_fuel 0

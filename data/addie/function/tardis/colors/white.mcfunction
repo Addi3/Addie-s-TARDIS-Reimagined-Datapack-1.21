@@ -15,4 +15,4 @@ fill 0 100 0 46 145 45 minecraft:white_stained_glass replace minecraft:purple_st
 fill 0 100 0 46 145 45 minecraft:white_stained_glass replace minecraft:magenta_stained_glass
 fill 0 100 0 46 145 45 minecraft:white_stained_glass replace minecraft:pink_stained_glass
 fill 0 100 0 46 145 45 minecraft:white_stained_glass replace minecraft:tinted_glass
-execute at @e[tag=console] run playsound minecraft:tardis_rebuild ambient @a[tag=inside] ~ ~ ~ 100 1 1
+execute at @e[tag=console,distance=..5] run playsound minecraft:tardis_rebuild ambient @a[tag=inside] ~ ~ ~ 100 1 1

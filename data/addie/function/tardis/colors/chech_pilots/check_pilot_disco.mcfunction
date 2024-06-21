@@ -1,2 +1,2 @@
-execute if score @s addie_tardis_pilots matches 1 run function addie:tardis/colors/disco
+execute if score @s addie_tardis_pilots matches 1 if score addie_tardis_current addie_tardis_fuel > addie_tardis_color addie_tardis_fuel run function addie:tardis/colors/disco
 advancement revoke @p only addie:tardis/disco_int
