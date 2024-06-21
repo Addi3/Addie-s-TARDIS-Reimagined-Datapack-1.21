@@ -6,6 +6,7 @@ scoreboard players add addie_tardis_doors_open addie_tardis_door 0
 #functions
 scoreboard objectives add addie_tardis_functions dummy
 scoreboard players add addie_tardis_power addie_tardis_functions 0
+scoreboard players add addie_tardis_monitor addie_tardis_functions 1
 
 #ambiance
 scoreboard objectives add addie_interior_ambience dummy
