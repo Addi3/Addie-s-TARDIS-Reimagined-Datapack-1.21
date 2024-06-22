@@ -42,7 +42,7 @@ execute if score addie_shield_unlocked addie_tardis_upgrades matches 0 if score 
 
 #shield big
 execute if score addie_shield_unlocked addie_tardis_upgrades matches 1 if score addie_tardis_shields addie_tardis_functions matches 1 at @e[tag=tardis] as @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,type=!marker,type=!block_display,type=!minecraft:interaction,type=!minecraft:text_display,distance=..5.5] at @s run tp @s ^ ^ ^-.5 ~ 0
-execute if score addie_shield_unlocked addie_tardis_upgrades matches 1 if score addie_tardis_shields addie_tardis_functions matches 1 at @e[tag=tardis] if entity @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,distance=..5.5] at @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,distance=..5.5] run particle minecraft:glow ~ ~ ~ 2 2 2 .1 2
+execute if score addie_shield_unlocked addie_tardis_upgrades matches 1 if score addie_tardis_shields addie_tardis_functions matches 1 at @e[tag=tardis] if entity @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,distance=..5.5] at @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,distance=..5.5] run particle minecraft:glow ~ ~ ~ 2 2 .1 2
 
 
 #dimension 
