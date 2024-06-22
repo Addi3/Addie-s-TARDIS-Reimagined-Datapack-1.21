@@ -38,3 +38,10 @@ scoreboard players add addie_tardis_secur addie_tardis_fuel 25
 scoreboard players add addie_tardis_extview addie_tardis_fuel 5
 scoreboard players add addie_tardis_shields addie_tardis_fuel 5
 scoreboard players add addie_tardis_de_remat addie_tardis_fuel 50
+
+#upgrades 
+scoreboard objectives add addie_tardis_upgrades dummy
+scoreboard players add addie_end_unlocked addie_tardis_upgrades 0
+scoreboard players add addie_speed_unlocked addie_tardis_upgrades 0
+scoreboard players add addie_secur_unlocked addie_tardis_upgrades 0
+scoreboard players add addie_shield_unlocked addie_tardis_upgrades 0

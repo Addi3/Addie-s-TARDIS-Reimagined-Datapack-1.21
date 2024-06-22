@@ -1,0 +1,6 @@
+execute if entity @p[nbt={SelectedItem:{id:"minecraft:netherite_upgrade_smithing_template",count:1,components:{"minecraft:custom_model_data":1}}}] if score @p addie_tardis_pilots matches 1 run function addie:tardis/upgrades/unlock_all
+execute if entity @p[nbt={SelectedItem:{id:"minecraft:netherite_upgrade_smithing_template",count:1,components:{"minecraft:custom_model_data":2}}}] if score @p addie_tardis_pilots matches 1 run function addie:tardis/upgrades/unlock_end 
+execute if entity @p[nbt={SelectedItem:{id:"minecraft:netherite_upgrade_smithing_template",count:1,components:{"minecraft:custom_model_data":3}}}] if score @p addie_tardis_pilots matches 1 run function addie:tardis/upgrades/unlock_security 
+execute if entity @p[nbt={SelectedItem:{id:"minecraft:netherite_upgrade_smithing_template",count:1,components:{"minecraft:custom_model_data":4}}}] if score @p addie_tardis_pilots matches 1 run function addie:tardis/upgrades/unlock_speed
+execute if entity @p[nbt={SelectedItem:{id:"minecraft:netherite_upgrade_smithing_template",count:1,components:{"minecraft:custom_model_data":5}}}] if score @p addie_tardis_pilots matches 1 run function addie:tardis/upgrades/unlock_shield
+advancement revoke @p only addie:tardis/diskdrive_use   
