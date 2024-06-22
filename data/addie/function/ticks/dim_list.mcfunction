@@ -2,5 +2,6 @@ execute if score addie_tardis_dim addie_tardis_pos matches 4 run scoreboard play
 
 execute if score addie_tardis_dim addie_tardis_pos matches 0 run data merge entity @e[tag=curdim,limit=1] {text:'{"color":"aqua","text":"OverWorld"}'}
 execute if score addie_tardis_dim addie_tardis_pos matches 1 run data merge entity @e[tag=curdim,limit=1] {text:'{"color":"red","text":"Nether"}'}
-execute if score addie_tardis_dim addie_tardis_pos matches 2 run data merge entity @e[tag=curdim,limit=1] {text:'{"color":"yellow","text":"TheEnd"}'}
+execute if score addie_end_unlocked addie_tardis_upgrades matches 0 if score addie_tardis_dim addie_tardis_pos matches 2 run data merge entity @e[tag=curdim,limit=1] {text:'{"strikethrough":true,"color":"yellow","text":"TheEnd"}'}
+execute if score addie_end_unlocked addie_tardis_upgrades matches 1 if score addie_tardis_dim addie_tardis_pos matches 2 run data merge entity @e[tag=curdim,limit=1] {text:'{"color":"yellow","text":"TheEnd"}'}
 execute if score addie_tardis_dim addie_tardis_pos matches 3 run data merge entity @e[tag=curdim,limit=1] {text:'{"color":"gold","text":"NA"}'}

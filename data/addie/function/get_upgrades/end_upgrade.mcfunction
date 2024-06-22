@@ -1,0 +1,1 @@
+give @p netherite_upgrade_smithing_template[custom_name='{"color":"light_purple","text":"End Upgrade"}',custom_model_data=2] 1

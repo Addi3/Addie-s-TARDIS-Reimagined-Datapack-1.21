@@ -1,0 +1,1 @@
+give @p netherite_upgrade_smithing_template[custom_name='{"color":"light_purple","text":"Shield Upgrade"}',custom_model_data=5] 1
