@@ -37,3 +37,4 @@ scoreboard players add addie_tardis_color addie_tardis_fuel 10
 scoreboard players add addie_tardis_secur addie_tardis_fuel 25
 scoreboard players add addie_tardis_extview addie_tardis_fuel 5
 scoreboard players add addie_tardis_shields addie_tardis_fuel 5
+scoreboard players add addie_tardis_de_remat addie_tardis_fuel 50

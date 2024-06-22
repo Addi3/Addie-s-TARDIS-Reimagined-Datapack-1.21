@@ -1,0 +1,5 @@
+playsound minecraft:refuel ambient @p[tag=inside] ~ ~ ~ 2 .9 1
+execute if score addie_tardis_dim addie_tardis_pos matches 0 run tellraw @p [{"text":"| "},{"color":"light_purple","text":"Current Dimension"},{"text":" : "},{"color":"aqua","text":" Overworld"}]
+execute if score addie_tardis_dim addie_tardis_pos matches 1 run tellraw @p [{"text":"| "},{"color":"light_purple","text":"Current Dimension"},{"text":" : "},{"color":"red","text":" Nether"}]
+execute if score addie_tardis_dim addie_tardis_pos matches 2 run tellraw @p [{"text":"| "},{"color":"light_purple","text":"Current Dimension"},{"text":" : "},{"color":"yellow","text":" The End"}]
+execute if score addie_tardis_dim addie_tardis_pos matches 3 run tellraw @p [{"text":"| "},{"color":"light_purple","text":"Current Dimension"},{"text":" : "},{"color":"gold","text":" Custom_Dim_1"}]

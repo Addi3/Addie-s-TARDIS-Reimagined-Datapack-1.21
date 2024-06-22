@@ -39,3 +39,6 @@ execute if score addie_tardis_extview addie_tardis_functions matches 1 at @e[tag
 #shields 
 execute if score addie_tardis_shields addie_tardis_functions matches 1 at @e[tag=tardis] if entity @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,distance=..3.5] run effect give @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,distance=..3.5] minecraft:slowness 255 10
 execute if score addie_tardis_shields addie_tardis_functions matches 1 at @e[tag=tardis] if entity @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,distance=..3.5] at @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,distance=..3.5] run particle minecraft:glow ~ ~ ~ 1 1 1 .1 2
+
+#dimension 
+execute if score addie_tardis_dim addie_tardis_pos matches -1 run scoreboard players set addie_tardis_dim addie_tardis_pos 0

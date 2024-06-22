@@ -1,0 +1,1 @@
+scoreboard players remove addie_tardis_dim addie_tardis_pos 1

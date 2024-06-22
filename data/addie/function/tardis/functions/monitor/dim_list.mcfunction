@@ -1,0 +1,3 @@
+playsound minecraft:refuel ambient @p[tag=inside] ~ ~ ~ 2 .9 1
+tellraw @p [{"color":"aqua","text":"Set Dimension","underlined":true}]
+tellraw @p [{"clickEvent":{"action":"run_command","value":"/function addie:tardis/functions/monitor/dim_remove"},"color":"white","text":"       < "},{"color":"gold","text":" | "},{"clickEvent":{"action":"run_command","value":"/function addie:tardis/functions/monitor/dim_add"},"color":"white","text":" >"}]
