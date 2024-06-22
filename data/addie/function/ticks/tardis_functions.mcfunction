@@ -46,4 +46,8 @@ execute if score addie_shield_unlocked addie_tardis_upgrades matches 1 if score 
 
 
 #dimension 
+<<<<<<< HEAD
 execute if score addie_tardis_dim addie_tardis_pos matches -1 run scoreboard players set addie_tardis_dim addie_tardis_pos 0    
+=======
+execute if score addie_tardis_dim addie_tardis_pos matches -1 run scoreboard players set addie_tardis_dim addie_tardis_pos 0    
+>>>>>>> 3e777fdcccc93e891edc825796254bb2e3e51994
