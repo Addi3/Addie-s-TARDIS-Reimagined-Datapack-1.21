@@ -1,5 +1,6 @@
 gamerule commandBlockOutput false
 gamerule commandModificationBlockLimit 999999
+gamerule sendCommandFeedback false
 
 #initial interior spawn
 execute in addie:tardis run forceload add 0 0 36 38

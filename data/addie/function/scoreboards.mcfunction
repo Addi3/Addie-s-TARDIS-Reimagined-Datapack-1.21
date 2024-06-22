@@ -6,6 +6,8 @@ scoreboard players add addie_tardis_doors_open addie_tardis_door 0
 #functions
 scoreboard objectives add addie_tardis_functions dummy
 scoreboard players add addie_tardis_power addie_tardis_functions 0
+scoreboard players add addie_tardis_extview addie_tardis_functions 0
+scoreboard players add addie_tardis_shields addie_tardis_functions 0
 
 #ambiance
 scoreboard objectives add addie_interior_ambience dummy
@@ -32,3 +34,6 @@ scoreboard players add addie_tardis_current addie_tardis_fuel 10000
 scoreboard players add addie_tardis_max addie_tardis_fuel 10000
 scoreboard players add addie_tardis_min addie_tardis_fuel 0
 scoreboard players add addie_tardis_color addie_tardis_fuel 10
+scoreboard players add addie_tardis_secur addie_tardis_fuel 25
+scoreboard players add addie_tardis_extview addie_tardis_fuel 5
+scoreboard players add addie_tardis_shields addie_tardis_fuel 5

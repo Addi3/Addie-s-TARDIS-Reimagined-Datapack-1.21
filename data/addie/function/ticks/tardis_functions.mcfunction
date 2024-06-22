@@ -32,3 +32,10 @@ execute as @e[tag=tardis] store result score addie_tardis_z addie_tardis_pos run
 data merge entity @e[tag=sayfuel,limit=1] {text:'[{"score":{"name":"addie_tardis_current","objective":"addie_tardis_fuel"},"color":"aqua"}]'}
 execute if score addie_tardis_current addie_tardis_fuel > addie_tardis_max addie_tardis_fuel run scoreboard players set addie_tardis_current addie_tardis_fuel 10000
 execute if score addie_tardis_current addie_tardis_fuel < addie_tardis_min addie_tardis_fuel run scoreboard players set addie_tardis_current addie_tardis_fuel 0
+
+#exterior view
+execute if score addie_tardis_extview addie_tardis_functions matches 1 at @e[tag=tardis] run tp @p ~ ~3 ~1
+
+#shields 
+execute if score addie_tardis_shields addie_tardis_functions matches 1 at @e[tag=tardis] if entity @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,distance=..3.5] run effect give @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,distance=..3.5] minecraft:slowness 255 10
+execute if score addie_tardis_shields addie_tardis_functions matches 1 at @e[tag=tardis] if entity @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,distance=..3.5] at @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,distance=..3.5] run particle minecraft:glow ~ ~ ~ 1 1 1 .1 2
