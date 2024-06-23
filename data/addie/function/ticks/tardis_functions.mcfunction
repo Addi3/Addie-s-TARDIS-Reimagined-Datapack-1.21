@@ -28,6 +28,17 @@ execute as @e[tag=tardis] store result score addie_tardis_x addie_tardis_pos run
 execute as @e[tag=tardis] store result score addie_tardis_y addie_tardis_pos run data get entity @e[tag=tardis,limit=1] Pos[1]
 execute as @e[tag=tardis] store result score addie_tardis_z addie_tardis_pos run data get entity @e[tag=tardis,limit=1] Pos[2]
 
+#display pos
+execute if score addie_tardis_showcurrent addie_tardis_pos matches 1 run data merge entity @e[tag=x,limit=1] {text:'[{"score":{"name":"addie_tardis_x","objective":"addie_tardis_pos"},"color":"green"}]'}
+execute if score addie_tardis_showcurrent addie_tardis_pos matches 1 run data merge entity @e[tag=y,limit=1] {text:'[{"score":{"name":"addie_tardis_y","objective":"addie_tardis_pos"},"color":"yellow"}]'}
+execute if score addie_tardis_showcurrent addie_tardis_pos matches 1 run data merge entity @e[tag=z,limit=1] {text:'[{"score":{"name":"addie_tardis_z","objective":"addie_tardis_pos"},"color":"red"}]'}
+
+
+execute if score addie_tardis_showcurrent addie_tardis_pos matches 0 run data merge entity @e[tag=x,limit=1] {text:'[{"score":{"name":"addie_tardis_setx","objective":"addie_tardis_pos"},"color":"green"}]'}
+execute if score addie_tardis_showcurrent addie_tardis_pos matches 0 run data merge entity @e[tag=y,limit=1] {text:'[{"score":{"name":"addie_tardis_sety","objective":"addie_tardis_pos"},"color":"yellow"}]'}
+execute if score addie_tardis_showcurrent addie_tardis_pos matches 0 run data merge entity @e[tag=z,limit=1] {text:'[{"score":{"name":"addie_tardis_setz","objective":"addie_tardis_pos"},"color":"red"}]'}
+
+
 #fuel
 data merge entity @e[tag=sayfuel,limit=1] {text:'[{"score":{"name":"addie_tardis_current","objective":"addie_tardis_fuel"},"color":"aqua"}]'}
 execute if score addie_tardis_current addie_tardis_fuel > addie_tardis_max addie_tardis_fuel run scoreboard players set addie_tardis_current addie_tardis_fuel 10000

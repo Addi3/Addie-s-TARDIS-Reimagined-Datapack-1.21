@@ -8,7 +8,8 @@ function addie:ticks/tardis_functions
 function addie:ticks/corridors
 
 #ambiance
-execute if score addie_tardis_power addie_tardis_functions matches 1 run function addie:ambience
+execute if score addie_tardis_power addie_tardis_functions matches 1 run function addie:int_ambience
+execute if score addie_tardis_power addie_tardis_functions matches 1 run function addie:ext_ambience
 
 #door enter detection 
 execute as @e[tag=tardis] at @s if entity @p[distance=..1] run tag @e[distance=..2] add entering

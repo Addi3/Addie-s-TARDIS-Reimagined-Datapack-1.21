@@ -1,0 +1,2 @@
+execute if score @s addie_tardis_pilots matches 1 if score addie_tardis_showcurrent addie_tardis_pos matches 0 run function addie:tardis/functions/coords/show_current
+advancement revoke @p only addie:tardis/show_current_coords

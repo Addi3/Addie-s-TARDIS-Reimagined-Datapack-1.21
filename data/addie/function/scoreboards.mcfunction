@@ -28,6 +28,11 @@ scoreboard players add addie_tardis_x addie_tardis_pos 0
 scoreboard players add addie_tardis_y addie_tardis_pos 0
 scoreboard players add addie_tardis_z addie_tardis_pos 0
 scoreboard players add addie_tardis_dim addie_tardis_pos 0
+scoreboard players add addie_tardis_setx addie_tardis_pos 0
+scoreboard players add addie_tardis_sety addie_tardis_pos 0
+scoreboard players add addie_tardis_setz addie_tardis_pos 0
+scoreboard players add addie_tardis_showcurrent addie_tardis_pos 0
+scoreboard players add addie_tardis_increase addie_tardis_pos 1
 
 #fuel
 scoreboard objectives add addie_tardis_fuel dummy
