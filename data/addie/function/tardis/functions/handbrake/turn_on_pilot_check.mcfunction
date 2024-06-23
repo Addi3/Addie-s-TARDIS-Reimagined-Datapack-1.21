@@ -1,0 +1,2 @@
+execute if score @s addie_tardis_pilots matches 1 if score addie_tardis_handbrake addie_tardis_functions matches 0 run function addie:tardis/functions/handbrake/turn_on
+advancement revoke @p only addie:tardis/handbrake_on
