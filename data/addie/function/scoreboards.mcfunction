@@ -9,6 +9,9 @@ scoreboard players add addie_tardis_power addie_tardis_functions 0
 scoreboard players add addie_tardis_extview addie_tardis_functions 0
 scoreboard players add addie_tardis_shields addie_tardis_functions 0
 scoreboard players add addie_tardis_handbrake addie_tardis_functions 0
+scoreboard players set addie_tardis_landed addie_tardis_functions 1
+scoreboard players set addie_tardis_takingoff addie_tardis_functions 0
+scoreboard players set addie_tardis_invortex addie_tardis_functions 0
 
 #ambiance
 scoreboard objectives add addie_interior_ambience dummy
