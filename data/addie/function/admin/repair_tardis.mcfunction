@@ -1,5 +1,4 @@
 kill @e[type=minecraft:glow_item_frame]
-execute in addie:tardis run place template addie:console_room_default 0 100 0
 kill @e[tag=playovergrown]
 
 execute in addie:tardis run forceload add 54 -50 99 -5
@@ -10,7 +9,7 @@ execute in addie:tardis run forceload add -54 56 41 103
 execute in addie:tardis run forceload add 41 104 -54 149
 
 #fixed interior
-execute in addie:tardis run place template addie:console_room_default 0 100 0
+execute in addie:tardis run place template addie:console_room_fixed 0 100 0
 execute at @e[tag=door] run summon armor_stand ~ ~ ~2.5 {Invisible:1b,NoGravity:1b,Tags:["playnewlook"]}
 #corrdor1
 execute in addie:tardis run place template addie:corridor1 54 100 0
