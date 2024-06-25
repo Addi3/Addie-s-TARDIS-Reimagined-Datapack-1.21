@@ -22,3 +22,7 @@ execute as @e[tag=tardis] at @s if entity @a[distance=..3,tag=!inside] run tag @
 
 #dim list 
 function addie:ticks/dim_list
+
+#animations
+function addie:tardis/functions/de_remat/demat
+function addie:tardis/functions/de_remat/remat
