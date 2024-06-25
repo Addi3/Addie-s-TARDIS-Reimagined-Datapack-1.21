@@ -4,8 +4,8 @@ execute if score addie_tardis_power addie_tardis_functions matches 0 in addie:ta
 execute if score addie_tardis_current addie_tardis_fuel = addie_tardis_min addie_tardis_fuel run function addie:tardis/functions/power/power_off
 
 #rotor idle
-execute if entity @e[tag=tardis] as @e[tag=rotorbottom] at @s run tp @s ~ ~ ~ ~2 ~
-execute if entity @e[tag=tardis] as @e[tag=rotortop] at @s run tp @s ~ ~ ~ ~-2 ~
+execute if entity @e[tag=tardisv] as @e[tag=rotorbottom] at @s run tp @s ~ ~ ~ ~2 ~
+execute if entity @e[tag=tardisv] as @e[tag=rotortop] at @s run tp @s ~ ~ ~ ~-2 ~
 
 #intro music
 function addie:intro_music/new_look
@@ -29,7 +29,7 @@ execute if score addie_tardis_showcurrent addie_tardis_pos matches 1 run data me
 execute if score addie_tardis_showcurrent addie_tardis_pos matches 1 run data merge entity @e[tag=y,limit=1] {text:'[{"score":{"name":"addie_tardis_y","objective":"addie_tardis_pos"},"color":"yellow"}]'}
 execute if score addie_tardis_showcurrent addie_tardis_pos matches 1 run data merge entity @e[tag=z,limit=1] {text:'[{"score":{"name":"addie_tardis_z","objective":"addie_tardis_pos"},"color":"red"}]'}
 
-
+#show current positon
 execute if score addie_tardis_showcurrent addie_tardis_pos matches 0 run data merge entity @e[tag=x,limit=1] {text:'[{"score":{"name":"addie_tardis_setx","objective":"addie_tardis_pos"},"color":"green"}]'}
 execute if score addie_tardis_showcurrent addie_tardis_pos matches 0 run data merge entity @e[tag=y,limit=1] {text:'[{"score":{"name":"addie_tardis_sety","objective":"addie_tardis_pos"},"color":"yellow"}]'}
 execute if score addie_tardis_showcurrent addie_tardis_pos matches 0 run data merge entity @e[tag=z,limit=1] {text:'[{"score":{"name":"addie_tardis_setz","objective":"addie_tardis_pos"},"color":"red"}]'}
@@ -62,3 +62,7 @@ function addie:tardis/colors/disco
 
 #extview 
 execute if score addie_tardis_extview addie_tardis_functions matches 1 run function addie:tardis/functions/monitor/movetoext
+
+#flashing lights
+execute if score addie_tardis_takingoff addie_tardis_functions matches 1 in addie:tardis run setblock 18 118 5 stone
+execute if score addie_tardis_landed addie_tardis_functions matches 1 in addie:tardis run setblock 18 118 5 air

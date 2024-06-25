@@ -1,6 +1,7 @@
 execute if score addie_tardis_takingoff addie_tardis_functions matches 1 run scoreboard players add addie_demat_animate addie_tardis_animations 1 
 execute if score addie_demat_animate addie_tardis_animations matches 1 run function addie:tardis/functions/de_remat/renametotardisv
 execute if score addie_demat_animate addie_tardis_animations matches 2 at @e[tag=tardisv] run playsound minecraft:takeoff ambient @a ~ ~ ~ .7 1 1
+execute if score addie_demat_animate addie_tardis_animations matches 3 run scoreboard players set addie_tardis_landed addie_tardis_functions 0
 
 execute if score addie_demat_animate addie_tardis_animations matches 97 run function addie:tardis/phases/phase_9
 execute if score addie_demat_animate addie_tardis_animations matches 98 run function addie:tardis/phases/phase_8
@@ -96,6 +97,8 @@ execute if score addie_demat_animate addie_tardis_animations matches 280 run fun
 execute if score addie_demat_animate addie_tardis_animations matches 282 run function addie:tardis/phases/phase_1
 execute if score addie_demat_animate addie_tardis_animations matches 284 run function addie:tardis/phases/phase_1
 execute if score addie_demat_animate addie_tardis_animations matches 286 run function addie:tardis/phases/phase_0
+
+execute if score addie_demat_animate addie_tardis_animations matches 320 run scoreboard players set addie_tardis_invortex addie_tardis_functions 1
 
 execute if score addie_demat_animate addie_tardis_animations matches 321 run scoreboard players set addie_tardis_takingoff addie_tardis_functions 0
 execute if score addie_tardis_takingoff addie_tardis_functions matches 0 run scoreboard players set addie_demat_animate addie_tardis_animations 0

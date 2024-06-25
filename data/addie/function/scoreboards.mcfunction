@@ -65,3 +65,4 @@ scoreboard players set addie_disco_colour_mode addie_disco_mode 0
 scoreboard objectives add addie_tardis_animations dummy
 scoreboard players set addie_demat_animate addie_tardis_animations 0
 scoreboard players set addie_remat_animate addie_tardis_animations 0
+scoreboard players add addie_vortex_animate addie_tardis_animations 0

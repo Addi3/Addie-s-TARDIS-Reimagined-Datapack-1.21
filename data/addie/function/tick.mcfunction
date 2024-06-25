@@ -26,3 +26,4 @@ function addie:ticks/dim_list
 #animations
 function addie:tardis/functions/de_remat/demat
 function addie:tardis/functions/de_remat/remat
+function addie:tardis/functions/de_remat/vortex
