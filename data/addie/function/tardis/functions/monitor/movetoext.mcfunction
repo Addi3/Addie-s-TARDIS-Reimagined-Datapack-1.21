@@ -1,0 +1,1 @@
+execute as @s at @e[tag=tardis] run tp @p ~ ~3 ~1

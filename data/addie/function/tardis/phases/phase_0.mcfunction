@@ -1,0 +1,1 @@
+execute as @e[tag=tardisv] run item replace entity @e[tag=tardisv] armor.head with minecraft:air

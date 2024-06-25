@@ -54,3 +54,8 @@ scoreboard players add addie_end_unlocked addie_tardis_upgrades 0
 scoreboard players add addie_speed_unlocked addie_tardis_upgrades 0
 scoreboard players add addie_secur_unlocked addie_tardis_upgrades 0
 scoreboard players add addie_shield_unlocked addie_tardis_upgrades 0
+
+#disco mode
+scoreboard objectives add addie_disco_mode dummy
+scoreboard players add addie_disco_active addie_disco_mode 0
+scoreboard players add addie_disco_colour_mode addie_disco_mode 0
