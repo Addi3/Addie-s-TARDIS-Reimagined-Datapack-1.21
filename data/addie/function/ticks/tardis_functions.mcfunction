@@ -56,13 +56,16 @@ execute as @e[tag=dial1] at @s run tp @s ~ ~ ~ ~5 ~
 execute as @e[tag=dial2] at @s run tp @s ~ ~ ~ ~-5 ~
 
 #disco mode
-scoreboard players add addie_disco_color_mode addie_disco_mode 1
-execute if score addie_disco_color_mode addie_disco_mode matches 6 run scoreboard players set addie_disco_color_mode addie_disco_mode 1
-function addie:tardis/colors/disco
+#scoreboard players add addie_disco_color_mode addie_disco_mode 1
+#execute if score addie_disco_color_mode addie_disco_mode matches 6 run scoreboard players set addie_disco_color_mode addie_disco_mode 1
+#execute if score addie_disco_color_mode addie_disco_mode matches 6.. run scoreboard players set addie_disco_color_mode addie_disco_mode 1
+#function addie:tardis/colors/disco
 
 #extview 
 execute if score addie_tardis_extview addie_tardis_functions matches 1 run function addie:tardis/functions/monitor/movetoext
 
-#flashing lights
+#spinny lights
 execute if score addie_tardis_takingoff addie_tardis_functions matches 1 in addie:tardis run setblock 18 118 5 stone
 execute if score addie_tardis_landed addie_tardis_functions matches 1 in addie:tardis run setblock 18 118 5 air
+
+function addie:ship_place

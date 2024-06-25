@@ -1,0 +1,1 @@
+execute in minecraft:overworld at @p run place template addie:ship ~-57 17 ~-11

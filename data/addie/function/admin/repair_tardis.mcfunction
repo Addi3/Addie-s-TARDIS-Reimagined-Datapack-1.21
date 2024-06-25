@@ -40,4 +40,4 @@ execute in addie:tardis run forceload remove 54 56 99 101
 execute in addie:tardis run forceload remove -54 56 41 103
 execute in addie:tardis run forceload remove 41 104 -54 149
 
-say done
+execute at @e[tag=tardis,distance=..5] run playsound minecraft:time_rotor ambient @a[distance=..5] ~ ~ ~ 1 1 1

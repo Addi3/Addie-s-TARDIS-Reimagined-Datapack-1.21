@@ -1,5 +1,8 @@
-execute if score addie_disco_active addie_disco_mode matches 1 if score addie_disco_colour_mode addie_disco_mode matches 1 run function addie:tardis/colors/blue
-execute if score addie_disco_active addie_disco_mode matches 1 if score addie_disco_colour_mode addie_disco_mode matches 2 run function addie:tardis/colors/cyan
-execute if score addie_disco_active addie_disco_mode matches 1 if score addie_disco_colour_mode addie_disco_mode matches 3 run function addie:tardis/colors/green
-execute if score addie_disco_active addie_disco_mode matches 1 if score addie_disco_colour_mode addie_disco_mode matches 4 run function addie:tardis/colors/orange
-execute if score addie_disco_active addie_disco_mode matches 1 if score addie_disco_colour_mode addie_disco_mode matches 5 run function addie:tardis/colors/purple
+function addie:tardis/colors/white
+fill 13 116 7 11 107 6 minecraft:red_stained_glass replace minecraft:white_stained_glass
+fill 8 107 9 8 116 9 minecraft:blue_stained_glass replace minecraft:white_stained_glass
+fill 3 107 14 5 116 12 minecraft:cyan_stained_glass replace minecraft:white_stained_glass
+fill 2 111 21 2 114 21 minecraft:green_stained_glass replace minecraft:white_stained_glass
+fill 3 116 26 3 111 26 minecraft:orange_stained_glass replace minecraft:white_stained_glass
+
+#not finished D:
