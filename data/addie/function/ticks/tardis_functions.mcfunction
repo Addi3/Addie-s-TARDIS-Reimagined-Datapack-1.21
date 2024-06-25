@@ -52,8 +52,8 @@ execute if score addie_shield_unlocked addie_tardis_upgrades matches 1 if score 
 execute if score addie_tardis_dim addie_tardis_pos matches -1 run scoreboard players set addie_tardis_dim addie_tardis_pos 0    
 
 #dials
-execute as @e[tag=dial1] at @s if score addie_tardis_power addie_tardis_functions matches 1 run tp @s ~ ~ ~ ~5 ~
-execute as @e[tag=dial2] at @s if score addie_tardis_power addie_tardis_functions matches 1 run tp @s ~ ~ ~ ~-5 ~
+execute as @e[tag=dial1] at @s run tp @s ~ ~ ~ ~5 ~
+execute as @e[tag=dial2] at @s run tp @s ~ ~ ~ ~-5 ~
 
 #disco mode
 scoreboard players add addie_disco_color_mode addie_disco_mode 1
