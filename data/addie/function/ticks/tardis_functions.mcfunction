@@ -68,4 +68,7 @@ execute if score addie_tardis_extview addie_tardis_functions matches 1 run funct
 execute if score addie_tardis_takingoff addie_tardis_functions matches 1 in addie:tardis run setblock 18 118 5 stone
 execute if score addie_tardis_landed addie_tardis_functions matches 1 in addie:tardis run setblock 18 118 5 air
 
-function addie:ship_place
+#repair int
+execute at @e[tag=tardis] if entity @e[tag=building,distance=..1] run function addie:admin/repair_tardis
+execute at @e[tag=tardis] if entity @e[tag=building,distance=..1] run function addie:tardis/exterior/close
+execute at @e[tag=tardis] if entity @e[tag=building,distance=..1] run tag @p remove building

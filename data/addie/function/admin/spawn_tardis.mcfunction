@@ -5,3 +5,4 @@ execute at @e[tag=tardis] run setblock ~ ~ ~ light[level=9]
 effect give @e[tag=hitbox] minecraft:invisibility infinite 1 true
 function addie:scoreboards
 function addie:setup/spawn_interior
+execute at @e[tag=tardis] run forceload add ~ ~ ~10 ~10

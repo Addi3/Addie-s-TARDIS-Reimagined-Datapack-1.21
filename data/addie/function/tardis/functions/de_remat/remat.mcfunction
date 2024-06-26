@@ -1,7 +1,7 @@
 execute if score addie_tardis_landing addie_tardis_functions matches 1 run scoreboard players add addie_remat_animate addie_tardis_animations 1
 execute if score addie_tardis_landing addie_tardis_functions matches 1 run scoreboard players set addie_tardis_invortex addie_tardis_functions 0
 execute if score addie_tardis_landing addie_tardis_functions matches 1 run scoreboard players set addie_vortex_animate addie_tardis_animations 0
-execute if score addie_remat_animate addie_tardis_animations matches 2 at @e[tag=tardisv] run playsound minecraft:landing ambient @a ~ ~ ~ .7 1 1
+execute if score addie_remat_animate addie_tardis_animations matches 2 at @e[tag=tardisv] run playsound minecraft:landing ambient @a[tag=!inside] ~ ~ ~ .7 1 1
 execute if score addie_remat_animate addie_tardis_animations matches 3 as @e[tag=rotorbottom] at @s run tp @s 17.5 109.42 21.5
 execute if score addie_remat_animate addie_tardis_animations matches 3 as @e[tag=rotortop] at @s run tp @s 17.5 111.17 21.5
 
