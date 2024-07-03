@@ -1,2 +1,2 @@
-execute if score @p addie_tardis_pilots matches 1 if score addie_tardis_current addie_tardis_fuel > addie_tardis_de_remat addie_tardis_fuel run function addie:tardis/functions/de_remat/land
+execute if score @p addie_tardis_pilots matches 1 if score addie_tardis_current addie_tardis_fuel > addie_tardis_de_remat addie_tardis_fuel if score addie_tardis_invortex addie_tardis_functions matches 1 run function addie:tardis/functions/de_remat/land
 advancement revoke @p only addie:tardis/throttle_off
