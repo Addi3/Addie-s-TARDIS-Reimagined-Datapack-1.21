@@ -90,7 +90,7 @@ execute if score addie_remat_animate addie_tardis_animations matches 333 run fun
 execute if score addie_remat_animate addie_tardis_animations matches 336 at @e[tag=tardisv] run setblock ~ ~ ~ light[level=9]   
 execute if score addie_remat_animate addie_tardis_animations matches 337 run function addie:tardis/phases/phase_9
 
-execute if score addie_demat_animate addie_tardis_animations matches 338 run function addie:tardis/functions/de_remat/renametotardis
+execute if score addie_remat_animate addie_tardis_animations matches 338 run function addie:tardis/functions/de_remat/renametotardis
 execute if score addie_remat_animate addie_tardis_animations matches 338 run scoreboard players set addie_tardis_power addie_tardis_functions 1
 
 execute if score addie_remat_animate addie_tardis_animations matches 339 run scoreboard players set addie_tardis_landing addie_tardis_functions 0

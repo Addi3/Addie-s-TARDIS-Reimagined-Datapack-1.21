@@ -13,6 +13,7 @@ scoreboard players set addie_tardis_landed addie_tardis_functions 1
 scoreboard players set addie_tardis_takingoff addie_tardis_functions 0
 scoreboard players set addie_tardis_invortex addie_tardis_functions 0
 scoreboard players add addie_tardis_landing addie_tardis_functions 0
+scoreboard players add addie_tardis_tips addie_tardis_functions 0
 
 #ambiance
 scoreboard objectives add addie_interior_ambience dummy

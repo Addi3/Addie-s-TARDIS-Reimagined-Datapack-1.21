@@ -47,8 +47,6 @@ execute if score addie_shield_unlocked addie_tardis_upgrades matches 0 if score 
 execute if score addie_shield_unlocked addie_tardis_upgrades matches 1 if score addie_tardis_shields addie_tardis_functions matches 1 at @e[tag=tardis] if entity @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,type=!marker,type=!polar_bear,type=!block_display,type=!minecraft:interaction,type=!minecraft:text_display,distance=..5.5] as @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,type=!marker,type=!block_display,type=!minecraft:interaction,type=!minecraft:text_display,distance=..5.5] at @s run tp @s ^ ^ ^-.5 ~ 0
 execute if score addie_shield_unlocked addie_tardis_upgrades matches 1 if score addie_tardis_shields addie_tardis_functions matches 1 at @e[tag=tardis] if entity @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,type=!polar_bear,distance=..5.5] at @e[type=!minecraft:player,type=!minecraft:wolf,type=!cat,type=!armor_stand,distance=..5.8] run particle minecraft:glow ~ ~ ~ 2 2 2 .1 2
 
-#dimension 
-execute if score addie_tardis_dim addie_tardis_pos matches -1 run scoreboard players set addie_tardis_dim addie_tardis_pos 0    
 
 #dials
 execute as @e[tag=dial1] at @s run tp @s ~ ~ ~ ~5 ~

@@ -121,6 +121,6 @@ execute if score addie_demat_animate addie_tardis_animations matches 284 run fun
 execute if score addie_demat_animate addie_tardis_animations matches 286 run function addie:tardis/phases/phase_0
 
 execute if score addie_demat_animate addie_tardis_animations matches 320 run scoreboard players set addie_tardis_invortex addie_tardis_functions 1
-
-execute if score addie_demat_animate addie_tardis_animations matches 321 run scoreboard players set addie_tardis_takingoff addie_tardis_functions 0
+execute if score addie_demat_animate addie_tardis_animations matches 321 if score addie_tardis_tips addie_tardis_functions matches 1 run tellraw @p[tag=inside] [{"text":"| "},{"color":"aqua","text":"TARDIS"},{"text":" : "},{"color":"gold","text":"In Vortex"}]
+execute if score addie_demat_animate addie_tardis_animations matches 322 run scoreboard players set addie_tardis_takingoff addie_tardis_functions 0
 execute if score addie_tardis_takingoff addie_tardis_functions matches 0 run scoreboard players set addie_demat_animate addie_tardis_animations 0

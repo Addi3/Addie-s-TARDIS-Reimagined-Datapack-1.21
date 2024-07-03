@@ -5,3 +5,4 @@ execute at @e[tag=console] run playsound minecraft:lever2 ambient @a[tag=inside]
 scoreboard players set addie_tardis_power addie_tardis_functions 0
 item replace entity @e[tag=throttlelever] armor.head with minecraft:white_dye[minecraft:custom_model_data=16]
 item replace entity @e[tag=door] armor.head with minecraft:cyan_dye[minecraft:custom_model_data=15]
+execute if score addie_tardis_tips addie_tardis_functions matches 1 run tellraw @p[tag=inside] [{"text":"| "},{"color":"aqua","text":"TARDIS"},{"text":" : "},{"color":"gold","text":"Taking Off"}]
