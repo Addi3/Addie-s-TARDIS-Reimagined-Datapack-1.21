@@ -34,7 +34,6 @@ execute if score addie_tardis_showcurrent addie_tardis_pos matches 0 run data me
 execute if score addie_tardis_showcurrent addie_tardis_pos matches 0 run data merge entity @e[tag=y,limit=1] {text:'[{"score":{"name":"addie_tardis_sety","objective":"addie_tardis_pos"},"color":"yellow"}]'}
 execute if score addie_tardis_showcurrent addie_tardis_pos matches 0 run data merge entity @e[tag=z,limit=1] {text:'[{"score":{"name":"addie_tardis_setz","objective":"addie_tardis_pos"},"color":"red"}]'}
 
-
 #fuel
 data merge entity @e[tag=sayfuel,limit=1] {text:'[{"score":{"name":"addie_tardis_current","objective":"addie_tardis_fuel"},"color":"aqua"}]'}
 execute if score addie_tardis_current addie_tardis_fuel > addie_tardis_max addie_tardis_fuel run scoreboard players set addie_tardis_current addie_tardis_fuel 10000
@@ -62,7 +61,8 @@ execute as @e[tag=dial2] at @s run tp @s ~ ~ ~ ~-5 ~
 #function addie:tardis/colors/disco
 
 #extview 
-execute if score addie_tardis_extview addie_tardis_functions matches 1 run function addie:tardis/functions/monitor/movetoext
+execute if score addie_tardis_landed addie_tardis_functions matches 1 if score addie_tardis_extview addie_tardis_functions matches 1 run function addie:tardis/functions/monitor/movetoext
+execute if score addie_tardis_invortex addie_tardis_functions matches 1 if score addie_tardis_extview addie_tardis_functions matches 1 run function addie:tardis/functions/monitor/movetoextv
 
 #spinny lights
 execute if score addie_tardis_takingoff addie_tardis_functions matches 1 in addie:tardis run setblock 18 118 5 stone

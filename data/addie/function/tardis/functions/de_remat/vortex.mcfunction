@@ -62,3 +62,9 @@ execute if score addie_vortex_animate addie_tardis_animations matches 60 at @e[t
 execute if score addie_vortex_animate addie_tardis_animations matches 30 at @e[tag=console] run playsound minecraft:time_rotor ambient @a[tag=inside] ~ ~ ~ 1 1 1
 execute if score addie_vortex_animate addie_tardis_animations matches 1 at @e[tag=console] run playsound minecraft:time_rotor ambient @a[tag=inside] ~ ~ ~ 1 1 1
 execute if score addie_vortex_animate addie_tardis_animations matches 50 at @e[tag=door] if entity @p[distance=..2] run playsound minecraft:vortex ambient @a[tag=inside] ~ ~ ~ .3 1 1
+
+
+execute if score addie_vortex_animate addie_tardis_animations matches 90 at @e[tag=vortex] run playsound minecraft:time_rotor ambient @a[tag=inside] ~ ~ ~ 1 1 1
+execute if score addie_vortex_animate addie_tardis_animations matches 60 at @e[tag=vortex] run playsound minecraft:time_rotor ambient @a[tag=inside] ~ ~ ~ 1 1 1
+execute if score addie_vortex_animate addie_tardis_animations matches 30 at @e[tag=vortex] run playsound minecraft:time_rotor ambient @a[tag=inside] ~ ~ ~ 1 1 1
+execute if score addie_vortex_animate addie_tardis_animations matches 1 at @e[tag=vortex] run playsound minecraft:time_rotor ambient @a[tag=inside] ~ ~ ~ 1 1 1

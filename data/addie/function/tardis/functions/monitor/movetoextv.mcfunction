@@ -1,0 +1,1 @@
+execute as @e[tag=vortex] at @e[tag=vortex] run tp @a[tag=viewoutsidetardis] ~ ~1 ~2 facing entity @s

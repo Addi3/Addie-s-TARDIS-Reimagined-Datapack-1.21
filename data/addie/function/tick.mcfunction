@@ -33,3 +33,6 @@ execute at @e[tag=spawntardis] if entity @p[distance=..10] run function addie:sp
 
 #repair tardis
 execute at @e[tag=repair] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:nether_star"}},distance=..2] run function addie:tardis/functions/repair_tardis
+
+#vortex
+execute as @e[tag=vortex] at @s run tp @s ~ ~ ~ ~5 ~
