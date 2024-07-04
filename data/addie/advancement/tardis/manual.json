@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "tardis": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "addie:manual"
+            }
+        }
+    },
+    "rewards": {
+        "function": "addie:admin/get_manual"
+    }
+
+}
