@@ -9,7 +9,7 @@
               "entity": "this",
               "predicate": {
                 "type": "minecraft:interaction",
-                "nbt": "{Tags:[\"powerleverint2\"]}"
+                "nbt": "{Tags:[\"powerleverint\"]}"
               }
             }
           ]
@@ -17,6 +17,6 @@
       }
     },
     "rewards": {
-      "function": "addie:tardis/functions/power/power_check_pilot_on"
+      "function": "addie:tardis/functions/power/power_check_pilot_open"
     }
   }

@@ -1,0 +1,2 @@
+execute if entity @e[tag=powercover,nbt={ArmorItems:[{},{},{},{components:{"minecraft:custom_model_data": 7},count:1,id:"minecraft:white_dye"}]}] run function addie:tardis/functions/power/open
+advancement revoke @p only addie:tardis/power_open_int

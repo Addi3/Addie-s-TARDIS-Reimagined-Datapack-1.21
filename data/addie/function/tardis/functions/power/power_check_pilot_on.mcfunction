@@ -1,2 +1,2 @@
-execute if score @s addie_tardis_pilots matches 1 if score addie_tardis_power addie_tardis_functions matches 0 run function addie:tardis/functions/power/power_on
+execute if entity @e[tag=powercover,nbt={ArmorItems:[{},{},{},{components:{"minecraft:custom_model_data": 8},count:1,id:"minecraft:white_dye"}]}] if score addie_tardis_power addie_tardis_functions matches 0 run function addie:tardis/functions/power/on
 advancement revoke @p only addie:tardis/power_on_int
