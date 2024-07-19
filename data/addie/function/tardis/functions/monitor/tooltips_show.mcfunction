@@ -21,3 +21,8 @@ data merge entity @e[tag=blackint,limit=1] {CustomName:'{"text":"Black"}'}
 data merge entity @e[tag=cyanint,limit=1] {CustomName:'{"text":"Cyan"}'}
 data merge entity @e[tag=orangeint,limit=1] {CustomName:'{"text":"Orange"}'}
 data merge entity @e[tag=purpleint,limit=1] {CustomName:'{"text":"Purple"}'}
+data merge entity @e[tag=eohr,limit=1] {CustomName:'{"text":"Eye Of Harmony"}'}
+data merge entity @e[tag=libr,limit=1] {CustomName:'{"text":"Libary"}'}
+data merge entity @e[tag=str,limit=1] {CustomName:'{"text":"Steam Room"}'}
+data merge entity @e[tag=dhr,limit=1] {CustomName:'{"text":"Dinning Room"}'}
+data merge entity @e[tag=kr,limit=1] {CustomName:'{"text":"Kitchen"}'}
