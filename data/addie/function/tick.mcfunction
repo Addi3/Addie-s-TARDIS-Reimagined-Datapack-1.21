@@ -32,7 +32,7 @@ function addie:tardis/functions/de_remat/vortex
 execute at @e[tag=spawntardis] if entity @p[distance=..10] run function addie:spawn_tardis_in_ship
 
 #repair tardis
-execute at @e[tag=repair] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:nether_star"}},distance=..2] run function addie:tardis/functions/repair_tardis
+execute at @e[tag=starin] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:nether_star"}},distance=..2] run function addie:tardis/functions/repair_tardis
 
 #vortex
 execute as @e[tag=vortex] at @s run tp @s ~ ~ ~ ~5 ~
