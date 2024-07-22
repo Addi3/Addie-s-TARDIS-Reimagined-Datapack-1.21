@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "tardis": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "addie:a_bottle"
+            }
+        }
+    },
+    "rewards": {
+        "function": "addie:admin/get_artron"
+    }
+
+}

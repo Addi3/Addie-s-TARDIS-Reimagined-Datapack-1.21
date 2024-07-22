@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PAP",
+    "ABA",
+    "PAP"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:glass_bottle"
+    },
+    "P": {
+      "item": "minecraft:blaze_powder"
+    },
+    "A": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "count": 1
+  }
+}

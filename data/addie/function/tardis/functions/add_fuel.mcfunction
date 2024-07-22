@@ -1,0 +1,2 @@
+execute at @e[tag=starin] run kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:glass_bottle",components:{"minecraft:custom_model_data":1}}},distance=..2]
+scoreboard players add addie_tardis_current addie_tardis_fuel 50
