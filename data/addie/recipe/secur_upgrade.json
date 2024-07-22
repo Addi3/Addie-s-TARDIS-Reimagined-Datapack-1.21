@@ -24,7 +24,7 @@
     "id": "minecraft:netherite_upgrade_smithing_template",
     "components": {
       "minecraft:custom_model_data": 3,
-      "minecraft:custom_name": "{\"color\":\"light_purple\",\"text\":\"Security Upgrade\"}"
+      "minecraft:custom_name": "{\"color\":\"light_purple\",\"text\":\"Monitor Upgrade\"}"
     }
   }
 }
